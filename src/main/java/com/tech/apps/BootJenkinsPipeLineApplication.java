@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class BootJenkinsPipeLineApplication  extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		System.out.println("started...");
+		System.out.println("started....");
 		SpringApplication.run(BootJenkinsPipeLineApplication.class, args);
 	}
 
