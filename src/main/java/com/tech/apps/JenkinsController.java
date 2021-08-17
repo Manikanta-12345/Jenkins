@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class JenkinsController extends SpringBootServletInitializer {
+public class JenkinsController{
 
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String welcomeJenkins() {
