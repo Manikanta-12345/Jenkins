@@ -10,6 +10,6 @@ public class JenkinsController{
 
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String welcomeJenkins() {
-		return "Welcome To SpringBoot Jenkins PipeLine";
+		return "Welcome To SpringBoot Jenkins PipeLine WebHook";
 	}
 }
